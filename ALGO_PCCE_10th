@@ -48,7 +48,7 @@ class ALGO_PCCE_10th {
     }
     public static void main(String[] args) {
         int[][] data = {{1, 20300104, 100, 80}, {2, 20300804, 847, 37}, {3, 20300401, 10, 8}};
-        int[][] result = ALGO_PCCE_10th(data, "date", 20300501, "remain");
+        int[][] result = solution(data, "date", 20300501, "remain");
         
         for(int[] row : result) {
             System.out.println(Arrays.toString(row));
